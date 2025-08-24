@@ -1,0 +1,295 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background: #908c8c;
+  line-height: 1.6;
+}
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(160, 44, 44);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between image and text */
+   margin-right: 93px;
+}
+
+.logo-img {
+  width: 55px; /* Adjust size */
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%; /* Makes image circular */
+  border: 2px solid #000; /* Optional border */
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  margin: 0;
+}
+
+.logo-text .highlight {
+  color: #E4405F; /* Instagram pink or your brand color */
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  
+  
+  
+}
+
+.icons img {
+  
+}
+
+/* About Section */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
+  background: #e1dbdb;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about-text h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.about-text p{
+
+  padding-top: 30px;
+}
+
+.highlight {
+  font-weight: 700;
+}
+
+.about-text p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.about-text a {
+  text-decoration: underline;
+  color: rgb(145, 57, 57);
+}
+
+/* Contact Section */
+.contact {
+  width: 30%;
+}
+
+.contact h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contact a {
+  color: black;
+  text-decoration: underline;
+}
+
+/* Image & Info Section */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 60px;
+  background: #f7f7f7;
+}
+
+.image-box img {
+  width: 450px;
+  height: auto;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.info-box {
+  max-width: 300px;
+}
+
+.info-box h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.info-box p {
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.info-box a {
+  color: black;
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 40px;
+  background: #fff;
+  color: #000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p, li {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.more ul li {
+  margin-bottom: 10px;
+
+}
+
+
+.icons i {
+  font-size: 25px; /* Change this value to make them bigger/smaller */
+  margin: 0 10px;  /* Spacing between icons */
+  color: #000;     /* Icon color (change if needed) */
+  transition: 0.3s ease;
+}
+
+.icons i:hover {
+  color: #ff0000; /* Change color on hover */
+  transform: scale(1.2); /* Slight zoom effect */
+}
+
+
+.body{
+    background-color: #dadada;
+}
+
+
+span{
+    
+}
+
+
+.clients {
+  
+  padding: 50px 20px;
+  text-align: center;
+  margin-top: 50px
+  
+}
+.clients{
+  background-color:rgb(173, 184, 118) ;
+}
+
+.clients h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: rgb(82, 66, 66);
+}
+
+/* Client Lists */
+.client-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.client-list ul {
+  list-style: none;
+  text-align: left;
+}
+
+.client-list li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 12px 0;
+  transition: color 0.3s ease;
+}
+
+.client-list li:hover {
+  color: #ffcc00;
+  cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+
+
+

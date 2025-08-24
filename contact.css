@@ -1,0 +1,203 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.contact-container {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.contact-container p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #444;
+}
+
+.contact-info {
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.contact-info a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-info a:hover {
+  color: #555;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  
+  line-height: 1.6;
+}
+
+
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 45px;
+  
+  border-bottom: 1px solid #ddd;
+  
+  
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-top: 27px;
+  padding: 20px 60px;
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(160, 44, 44);
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between image and text */
+  padding-right: 90px;
+  margin-top: 38px;
+  margin-right: 300px;
+  padding-left: 10px;
+}
+
+.logo-img {
+  width: 55px; /* Adjust size */
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%; /* Makes image circular */
+  border: 2px solid #000; /* Optional border */
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  margin: 0;
+}
+
+.logo-text .highlight {
+  color: #E4405F; /* Instagram pink or your brand color */
+}
+
+
+.icons {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  
+  
+  
+}
+
+.co{
+    background-color: #ddd;
+}
+
+i{
+    padding: 10px;
+    font-size: 35px;
+    color: orangered;
+}
+
+.insta{
+    color: orangered;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
